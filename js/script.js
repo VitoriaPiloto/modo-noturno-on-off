@@ -9,14 +9,6 @@ function changeClasses(){
     body.classList.toggle(darkMode);
     footer.classList.toggle(darkMode);   
 }
-function display_image(src, width, height, alt) {
-    var a = document.createElement("img");
-    a.src = src;
-    a.width = width;
-    a.height = height;
-    a.alt = alt;
-    document.body.appendChild(a);
-}
 
 function changeText(){
     const modoClaro = 'Modo claro';
